@@ -129,7 +129,7 @@ h1 {
 button {
   cursor: pointer;
   background: var(--grey);
-  border: 1px solid var(--white);
+  border: 2px solid var(--white);
   border-radius: 50em;
   padding: 0.8rem 1.8rem;
   font-family: 'Lexend Deca', sans-serif;
@@ -137,7 +137,18 @@ button {
 }
 
 button:hover {
-  background: var;
+  background: transparent;
+  color: white;
+}
+
+.button--sedan {
+  color: var(--orange);
+}
+.button--suv {
+  color: var(--dark-cyan);
+}
+.button--luxury {
+  color: var(--very-dark-cyan);
 }
 
 .attribution {

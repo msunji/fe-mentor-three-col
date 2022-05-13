@@ -89,10 +89,15 @@ main {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   padding: 3.2rem;
+  justify-content: space-between;
 }
 
 .svg {
+  flex: 1;
+  width: auto;
   margin-bottom: 1.8rem;
 }
 
@@ -139,6 +144,7 @@ button:hover {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 2rem 0;
 }
 @media screen and (min-width: 600px) {
   .cards {

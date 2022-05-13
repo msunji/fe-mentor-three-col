@@ -5,3 +5,8 @@
   --dark-cyan: hsl(184, 100%, 22%);
   --very-dark-cyan: hsl(179, 100%, 13%);
 }
+
+html,
+body {
+  font-size: 15px;
+}

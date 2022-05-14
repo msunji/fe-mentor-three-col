@@ -26,6 +26,8 @@ body {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background-color: var(--grey);
   font-family: 'Lexend Deca', sans-serif;
   height: 100vh;
@@ -153,7 +155,11 @@ button:hover {
   text-align: center;
   padding: 2rem 0;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
+  body {
+    justify-content: center;
+  }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

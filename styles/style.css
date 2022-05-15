@@ -101,7 +101,7 @@ main {
 }
 
 .card p {
-  margin-bottom: 2rem;
+  margin-bottom: 4.85rem;
 }
 
 .card--sedan {
@@ -128,7 +128,7 @@ h1 {
 button {
   cursor: pointer;
   background: var(--grey);
-  border: 2px solid var(--white);
+  border: 2px solid var(--grey);
   border-radius: 50em;
   padding: 0.8rem 1.8rem;
   font-family: 'Lexend Deca', sans-serif;
@@ -137,7 +137,7 @@ button {
 
 button:hover {
   background: transparent;
-  color: white;
+  color: var(--grey);
 }
 
 .button--sedan {
